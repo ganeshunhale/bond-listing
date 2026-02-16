@@ -185,14 +185,7 @@ export default function BondsListPage() {
                 ))}
               </div>
 
-              <div className="mt-5 pt-4 border-t border-gray-200">
-                <h4 className="font-bold text-gray-900 mb-2 text-xs uppercase tracking-wider">Sort By</h4>
-                <select className="w-full border border-gray-300 rounded px-2.5 py-1.5 text-xs text-gray-700">
-                  <option value="yield">Highest Yield</option>
-                  <option value="rating">Rating</option>
-                  <option value="maturity">Maturity</option>
-                </select>
-              </div>
+              
             </div>
           </div>
 
