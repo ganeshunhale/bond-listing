@@ -46,13 +46,13 @@ export function Header() {
 
           {/* RIGHT: Actions */}
           <div className="flex items-center gap-6 text-sm font-medium">
-            {/* <button className="flex items-center gap-2 text-gray-700 hover:text-black transition">
+            <button className="flex items-center gap-2 text-gray-700 hover:text-black transition">
               <span>🎁</span>
               Refer and Earn
               <span className="ml-1 inline-flex h-4 w-4 items-center justify-center rounded-full bg-red-500 text-[10px] text-white">
                 1
               </span>
-            </button> */}
+            </button>
 
             <button className="flex items-center gap-2 text-gray-700 hover:text-black transition">
               <span>▦</span>
