@@ -15,9 +15,9 @@ jobs:
       - name: Deploy via ssh
         uses: appleboy/ssh-action@v1.0.3
         with:
-          host: ${{ secrets.SSH_HOST }}
+          host: ${{secrets.SSH_HOST}}
           username: finrise
-          key: ${{ secrets.SSH_KEY}}
+          key: ${{secrets.SSH_KEY}}
           script: |
             cd C:\Users\FINRISE\bond-listing
             git pull
